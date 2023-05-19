@@ -1,0 +1,51 @@
+body {
+  font-family: "Montserrat", "serif";
+  color: #1f373d;
+}
+a {
+  text-decoration: none;
+  color: #1f373d;
+}
+.header {
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 16px;
+}
+.header-logo {
+  font-size: 25px;
+  font-weight: 600px;
+  flex-grow: 1;
+}
+nav {
+  flex-grow: 3;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.header-batton {
+  display: flex;
+  gap: 10px;
+}
+.join {
+  background: none;
+  border: none;
+  padding: 0 20px;
+  transition: ease opacity 1s;
+}
+.started {
+  background-color: #ffcc01;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 5px;
+  transition: ease opacity 1s;
+}
+.join:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
